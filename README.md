@@ -21,40 +21,36 @@ The first step involves exploring the schema and understanding the structure of 
 - Inspecting columns and their types.
 - Analyzing distribution of scores, topics, and difficulty levels.
 - Checking for missing or inconsistent data.
-
 ### Step 2: Data Cleaning and Preprocessing
 
 To ensure accurate analysis, the dataset is cleaned and preprocessed by:
 - Handling missing values.
 - Normalizing data formats.
 - Encoding categorical variables for analysis.
+- The provided data has difficulty level set to null every where in at topic level, quiz level or at question level therfore I assigned a random difficulty to each quiz 
+
 
 ### Step 3: Performance Analysis
 
-Performance metrics are analyzed by:
 - Calculating accuracy per topic and difficulty level.
 - Aggregating user performance trends over time.
-- Highlighting common error patterns.
+- Agregation of user performance over topic
+- Analysing how components like diffculty level and speed effects the accuracy
+- Analysing student persona using mistakes corrected , portion of total time spent in the quiz  , speed 
+- Two methods are used to do the persona analysis 1 rule based 2 clustering based
 
-### Step 4: Insight Generation
-
-Key insights are derived to understand:
-- Topics or difficulty levels where students consistently struggle.
-- Trends that indicate improvement or stagnation.
-- Areas requiring focused intervention.
-
-### Step 5: Recommendations
-
-Based on the insights, actionable recommendations are proposed:
-- **Topics to Focus On:** Identifying high-impact topics needing improvement.
-- **Optimal Difficulty Levels:** Suggesting levels suitable for targeted practice.
-- **Question Types:** Recommending practice on specific question formats.
-
-### Step 6: Visualization
+ ### Step 4: Visualization
 
 Interactive and static visualizations are created to:
 - Highlight performance trends.
 - Compare user results across different metrics.
-- Provide a clear, intuitive representation of findings.
+ 
+### Step 5: Recommendations
+
+Based on the insights, student personas actionable recommendations are proposed:
+- **Topics to Focus On:** Identifying high-impact topics needing improvement.
+- **Optimal Difficulty Levels:** Suggesting levels suitable for targeted practice.
+- **Question Types:** Recommending practice on specific question formats.
+
 
 
