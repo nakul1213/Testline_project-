@@ -57,19 +57,4 @@ Interactive and static visualizations are created to:
 - Compare user results across different metrics.
 - Provide a clear, intuitive representation of findings.
 
-### Step 7: Documentation and Reporting
-
-Comprehensive documentation is prepared to:
-- Explain the analysis process.
-- Summarize insights and recommendations.
-- Provide a clear roadmap for future iterations of the project.
-
----
-
-## Conclusion
-
-The **Testline Assignment** combines robust data analysis with actionable insights to support users in improving their learning outcomes. The structured approach ensures clarity and accuracy, providing a strong foundation for educational enhancements. For more details, please refer to the project's Jupyter Notebook.
-
-Feel free to contribute or provide feedback to further enhance this project!"
-}
 
